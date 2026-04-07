@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL: "https://kyau-chatbox-git-main-md-mamun-hossains-projects-df3cc2b3.vercel.app/",
+    baseURL: `${import.meta.env.VITE_BACKEND_URL}` || "http://localhost:5001/api",
     withCredentials: true,
 });
