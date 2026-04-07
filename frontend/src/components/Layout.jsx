@@ -1,6 +1,6 @@
 import React from 'react'
-import SIdeBar from './SIdeBar'
 import Navbar from './Navbar'
+import SIdeBar from './Sidebar'
 
 
 
